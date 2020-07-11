@@ -1,0 +1,87 @@
+#header-nav {
+    background-color: #0761f9;
+    font-family: 'Merienda One', cursive;
+}
+#heading {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    padding-left: 10px;
+}
+a:hover {
+    text-decoration: none;
+    text-shadow: 3px 3px 3px #ffffff;
+}
+
+body {
+    background-color: #e6effe;
+     font-family: 'Merienda One', cursive;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
+table {
+     background-color: #cddffd;
+     width: 100px;
+}
+.table th {
+    background-color: #3880fa;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #b4cffd;
+}
+#more {
+    margin-bottom: 15px;
+    background-color: #0557e1;
+    color: #000;
+}
+#go {
+    background-color: #61f907;
+    color: #000;
+    margin-bottom: 50px;
+}
+#more:hover, #go:hover {
+    box-shadow: 3px 3px 3px #000;
+}
+
+#footer {
+    text-align: center;
+    padding: 5px;
+}
+hr {
+    border: 1px solid black;
+    width: 35%;
+    margin: auto;
+}
+#fhead {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+#footer a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+}
+#reset {
+    background-color: #cc0000;
+    margin-bottom: 20px;
+}
+#reset:hover {
+    box-shadow: 3px 3px 3px #000;
+}
+#share {
+    align-content: center;
+}
+@media (max-width: 576px) {
+    .container-fluid {
+        width: 100%;
+        padding: 0px;
+    }
+    .container {
+        width: 100%;
+    }
+}
